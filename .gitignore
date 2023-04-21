@@ -1,3 +1,9 @@
+.vector_cache
+.amltignore
+.amltconfig
+*.yaml
+raw 
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
