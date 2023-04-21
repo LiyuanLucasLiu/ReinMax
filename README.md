@@ -78,16 +78,16 @@ from reinmax import reinmax
 Following the previous study (Tucker et al., 2017; Grathwohl et al., 2018; Pervez et al., 2020;
 Paulus et al., 2021), let us start with a simple and classic problem, polynomial programming. 
 
-The implementation for this problem is available at the [poly](https://github.com/LiyuanLucasLiu/reinmax_examples/tree/main/poly) folder. 
+The implementation for this problem is available at the [poly](https://github.com/LiyuanLucasLiu/reinmax/tree/main/poly) folder. 
 
 #### **MNIST-VAE**
 We also benchmarked the performance by training variational auto-encoders (VAE) with
 categorical latent variables on MNIST. 
 
-The implementation for MNIST-VAE is available at the [mnist_vae](https://github.com/LiyuanLucasLiu/reinmax_examples/tree/main/mnist_vae) folder. 
+The implementation for MNIST-VAE is available at the [mnist_vae](https://github.com/LiyuanLucasLiu/reinmax/tree/main/mnist_vae) folder. 
 
 #### **ListOps**
-For unsupervised parsing on ListOps, the implementation is available at the [listops](https://github.com/LiyuanLucasLiu/reinmax_examples/tree/main/listops) folder. 
+For unsupervised parsing on ListOps, the implementation is available at the [listops](https://github.com/LiyuanLucasLiu/reinmax/tree/main/listops) folder. 
 
 ### **Citation**
 Please cite the following papers if you found our model useful. Thanks!
