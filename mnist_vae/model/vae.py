@@ -243,7 +243,7 @@ class VAE(nn.Module):
             mean_grad += grad 
             std_grad += grad ** 2
 
-        self.compute_code = self.compute_code_track
+        self.compute_code = self.compute_code_regular
         mean_grad = mean_grad / ct 
         std_grad = (std_grad / ct - mean_grad ** 2).abs() ** 0.5 
         
