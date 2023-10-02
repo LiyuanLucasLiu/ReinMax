@@ -5,7 +5,6 @@ import torch.nn.functional as F
 from torch import nn
 from model.categorical import categorical_repara
 
-from tqdm import tqdm
 import math
 
 activation_map = {
