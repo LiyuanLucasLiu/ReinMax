@@ -33,7 +33,7 @@ echo $folder
 
 if [ ! -f omni_chardata.mat ]
 then
-	echo "downloading OmniGlot data"
+    echo "downloading OmniGlot data"
     wget -O omni_chardata.mat https://github.com/yburda/iwae/raw/master/datasets/OMNIGLOT/chardata.mat
 fi
 
@@ -115,7 +115,7 @@ mkdir -p $folder
 
 if [ ! -f omni_chardata.mat ]
 then
-	echo "downloading OmniGlot data"
+    echo "downloading OmniGlot data"
     wget -O omni_chardata.mat https://github.com/yburda/iwae/raw/master/datasets/OMNIGLOT/chardata.mat
 fi
 
